@@ -19,7 +19,7 @@ In the package.json the export goes to /wwwroot folder of the API with the added
 When developing locally, you need to do two things:
 
 1. Run your Next.js app in development, which gives you full Hot-Module-Reload support with NextJsStaticHosting.AspNetCore.
-   Example: `cd ./NextNet.ClientApp && yarn dev`
+   Example: `cd ./NextNet.ClientApp && pnpm install && pnpm run dev`
 
 2. Run the server ASP .NET Core app in development mode (i.e. `ASPNETCORE_ENVIRONMENT=Development`).
    This is done automatically for you when running from Visual Studio.

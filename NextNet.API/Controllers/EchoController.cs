@@ -1,13 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 
-namespace ActualNextjsApp.Server.Controllers
+namespace ActualNextjsApp.Server.Controllers;
+
+public class EchoController : Controller
 {
-    public class EchoController : Controller
-    {
-        [Route("/api/echo")]
-        public string Echo()
-        {
-            return "Hello world";
-        }
-    }
+	[Route("/api/echo")]
+	public string Echo()
+	{
+		return "Hello world";
+	}
 }
