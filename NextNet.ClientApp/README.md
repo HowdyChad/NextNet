@@ -27,9 +27,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 1. Build and export the Next.js app to generate static files:
 
   ```bash
-  yarn build-export
+  yarn build
   ```
 
 2. Publish the ASP .NET Core project
 
-  When you publish NextNet.API, it will include the outputs generated at `../NextNet.API/wwwroot`
+  When you publish NextNet.API, it will include the outputs generated at `../NextNet.API/wwwroot` because of distDir setting in `next.config.js`.

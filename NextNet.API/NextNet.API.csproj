@@ -22,7 +22,7 @@
     </DotNetPublishFiles>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="NextjsStaticHosting.AspNetCore" Version="0.9.1-preview" />
+    <PackageReference Include="NextjsStaticHosting.AspNetCore" Version="0.9.3-preview" />
     <PackageReference Include="Yarp.ReverseProxy" Version="2.3.0" />
   </ItemGroup>
 
