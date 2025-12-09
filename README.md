@@ -12,7 +12,7 @@ Notice the folders `NextNet.API` and `NextNet.ClientApp`.
 
 Ultimately, the Client App is built and exported to the API's /wwwroot folder. That is where ASP.NET serves static files so it made sense to me to output them there. I didn't need any other files in wwwroot besides what gets generated from NextJs so this works for me.
 
-In the package.json the export goes to /wwwroot folder of the API with the added ` -o ../NextNet.API/wwwroot`
+In the package.json the export goes to /wwwroot folder of the API with distDir in `next.config.js`
 
 ## Dev experience
 
