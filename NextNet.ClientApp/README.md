@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## 1: Install dependencies
 
   ```bash
-  yarn
+  pnpm
   ```
 
 ## 2: Run or deploy
@@ -15,7 +15,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 1. Start the Next.js dev server:
 
   ```bash
-  yarn dev
+  pnpm dev
   ```
 
 2. Launch the ASP .NET Core project in development mode
@@ -27,7 +27,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 1. Build and export the Next.js app to generate static files:
 
   ```bash
-  yarn build
+  pnpm build
   ```
 
 2. Publish the ASP .NET Core project
